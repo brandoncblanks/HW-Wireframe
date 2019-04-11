@@ -1,27 +1,36 @@
 
 
 
-container {
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    clear: all;
     background-color: grey;
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 1000px;
-    font-size: 1.25em;
-    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    
 }
 
 #header {
-    background-color: grey;
-    padding: 20px;
+    background-color: white;
     font-display: grey;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    width: 1200px;
+    height: 100px;
 
 
 }
 
 nav{
     background-color: white;
-    padding: 20px;
     font-display: grey;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    width: 1200px;
+    height: 100px;
 
     
 }
@@ -30,44 +39,78 @@ nav{
 section {
     float: left;
     background-color: white;
-    font-display: grey;
+    font-display: white;
+    height: 400px;
+   width: 600px;
+   margin-left: 150px;
+   text-align: center;
+   
 
 }
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 aside { 
     float: right;
     background-color: white;
     padding: 80px;
-    font-display: grey;
-    width: 50px;
-    height: 50px;
+    font-display: white;
+    width: 500px;
+    height: 200px;
+    margin-left: -500px;
+    text-align: center;
+    
 
 }
 
 article {
-    background-color: grey;
+    background-color: white;
     font-display: white;
-
+    width: 600px;
+    height: 220px;
+    margin-top: 125px;
+    margin-left: 200;
 }
 
-h1,h2,h3 {
+h2 {
     background-color: white;
+    width: 400px;
+    height: 75px;
+    margin-left: 100px;
+    margin-right: 0px;
+    text-align: center;
+    margin-top: -10;
 
 }
 
 
 p {
-    background-color: white;
-    font-display: grey;
-
+    background-color: White;
+    font-display: white;
+    height: 100px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: -5px;
+    font-size: 5
+    
 }
 
 
 
 footer {
     background-color: white;
-    font-display: black;
-    margin-bottom: 50px;
+    font-display: white;
+    margin-top: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    padding: 50px;
+    
+
+   
     
     
 
